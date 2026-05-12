@@ -208,8 +208,4 @@ src/
 
 ---
 
-<div align="center">
-
-**DroneController** · ROS 2 ile MAVSDK arasında temiz bir köprü.
-
-</div>
+<
