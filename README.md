@@ -22,6 +22,14 @@
 
 > İlk dakikadan itibaren çalışan **SITL üzerinde test edilebilir** bir iskelet sunar — yeni görev eklemek için tek bir dosya kopyalamak yeterlidir.
 
+<div align="center">
+
+<img src="docs/sitl_demo.png" alt="Gazebo + QGroundControl + drone_controller SITL üzerinde çalışırken" width="100%">
+
+<sub><i>SITL üzerinde uçtan uca çalışma: Gazebo simülasyonu, QGroundControl haritası ve <code>drone_controller</code> node'unun terminal çıktısı.</i></sub>
+
+</div>
+
 ---
 
 ## Görevler
@@ -192,6 +200,8 @@ ros2 run drone_controller <yeni_gorev>
 src/
 ├── .gitignore
 ├── README.md
+├── docs/
+│   └── sitl_demo.png       ← README ekran görüntüsü
 └── drone_controller/
     ├── package.xml
     ├── setup.py
